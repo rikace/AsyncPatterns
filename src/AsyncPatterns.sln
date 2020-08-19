@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncPatterns", "AsyncPatterns\AsyncPatterns.csproj", "{4D85BEAD-F1B4-4040-AFF8-32739A08156F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncHelpers", "AsyncHelpers\AsyncHelpers.csproj", "{6F4130AF-6922-482D-AC2C-452A04DA2518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4FE311D3-FF4B-45E0-8CAD-D05B5FF75AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockAnalyzer", "StockAnalyzer\StockAnalyzer.csproj", "{89F55301-05DF-4B35-B8FD-435A240649F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{9F54B0BA-1F17-4DC2-A60F-5947F776D5FD}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Images\020.jpg = Data\Images\020.jpg
+		Data\Images\050.jpg = Data\Images\050.jpg
+		Data\Images\100.jpg = Data\Images\100.jpg
+		Data\Images\GinevraBenci.jpg = Data\Images\GinevraBenci.jpg
+		Data\Images\LadyErmine.jpg = Data\Images\LadyErmine.jpg
+		Data\Images\MonaLisa.jpg = Data\Images\MonaLisa.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tickers", "Tickers", "{0655516B-A84F-4861-8141-A66FAA6B587F}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Tickers\aapl.csv = Data\Tickers\aapl.csv
+		Data\Tickers\amzn.csv = Data\Tickers\amzn.csv
+		Data\Tickers\fb.csv = Data\Tickers\fb.csv
+		Data\Tickers\goog.csv = Data\Tickers\goog.csv
+		Data\Tickers\msft.csv = Data\Tickers\msft.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D85BEAD-F1B4-4040-AFF8-32739A08156F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D85BEAD-F1B4-4040-AFF8-32739A08156F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D85BEAD-F1B4-4040-AFF8-32739A08156F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D85BEAD-F1B4-4040-AFF8-32739A08156F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4130AF-6922-482D-AC2C-452A04DA2518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4130AF-6922-482D-AC2C-452A04DA2518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4130AF-6922-482D-AC2C-452A04DA2518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4130AF-6922-482D-AC2C-452A04DA2518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F55301-05DF-4B35-B8FD-435A240649F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F55301-05DF-4B35-B8FD-435A240649F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F55301-05DF-4B35-B8FD-435A240649F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F55301-05DF-4B35-B8FD-435A240649F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F54B0BA-1F17-4DC2-A60F-5947F776D5FD} = {4FE311D3-FF4B-45E0-8CAD-D05B5FF75AA6}
+		{0655516B-A84F-4861-8141-A66FAA6B587F} = {4FE311D3-FF4B-45E0-8CAD-D05B5FF75AA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4F9D8E-329B-4F8A-938A-CA2FB156E85B}
+	EndGlobalSection
+EndGlobal
